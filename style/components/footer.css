@@ -1,0 +1,133 @@
+footer {
+  position: absolute;
+  width: 375px;
+  height: 88px;
+  left: 0px;
+  top: 724px;
+
+  mix-blend-mode: normal;
+}
+
+footer frame4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 328px;
+  height: 40px;
+  left: 24px;
+  top: 16px;
+}
+
+footer frame4 Feed {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+
+  position: static;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 32px;
+}
+
+footer frame4 Search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  position: static;
+  width: 40px;
+  height: 40px;
+  left: 72px;
+  top: 0px;
+
+  opacity: 0.5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 32px;
+}
+
+footer frame4 Create {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+
+  position: static;
+  width: 40px;
+  height: 40px;
+  left: 144px;
+  top: 0px;
+
+  /* Primary/Gradient */
+  background: linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%);
+  border-radius: 32px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 32px;
+}
+
+footer frame4 Alert {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+
+  position: static;
+  width: 40px;
+  height: 40px;
+  left: 216px;
+  top: 0px;
+
+  opacity: 0.5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 0px 32px;
+}
+
+footer frame4 Profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+
+  position: static;
+  width: 40px;
+  height: 40px;
+  left: 288px;
+  top: 0px;
+
+  opacity: 0.5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin: 0px 32px;
+}
