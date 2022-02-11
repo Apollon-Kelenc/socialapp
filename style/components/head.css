@@ -6,7 +6,7 @@
   padding: 0px;
   background: var(--backgroundcolor);
   position: absolute;
-  width: 327px;
+  width: 330px;
   height: 32px;
   left: 24px;
   top: 60px;
@@ -27,7 +27,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 130px;
+  margin: 0.7em;
   background: var(--backgroundcolor);
 }
 
@@ -43,6 +43,5 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 0px 20px;
   background: var(--backgroundcolor);
 }
