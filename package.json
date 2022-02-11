@@ -1,7 +1,6 @@
 {
   "name": "y",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,5 +17,15 @@
     "@storybook/html": "^6.4.18",
     "babel-loader": "^8.2.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apollon-Kelenc/socialapp.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Apollon-Kelenc/socialapp/issues"
+  },
+  "homepage": "https://github.com/Apollon-Kelenc/socialapp#readme",
+  "description": "",
   "dependencies": {}
 }
