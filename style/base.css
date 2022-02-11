@@ -1,5 +1,9 @@
 main {
+  display: flex;
+  justify-content: flex-start;
   position: relative;
   width: 375px;
-  background: #181a1c;
+}
+html {
+  background-color: var(--backgroundcolor);
 }

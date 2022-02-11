@@ -1,0 +1,56 @@
+.stories-main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 327px;
+  height: 140px;
+  left: 24px;
+  top: 124px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.story-container {
+  position: relative;
+  width: 100px;
+  height: 140px;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  gap: 6;
+  margin-right: 12px;
+}
+
+.story-img {
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.profile-photo-container {
+  background: linear-gradient(90deg, #f72e8e 0%, #ac1af0 102.84%);
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 30px;
+  top: 96px;
+  border-radius: 100%;
+}
+
+.profile-photo {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 4px;
+  top: 4px;
+  border-radius: 100px;
+  z-index: 1;
+}
