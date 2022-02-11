@@ -1,0 +1,44 @@
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  background: var(--backgroundcolor);
+  position: absolute;
+  width: 327px;
+  height: 32px;
+  left: 24px;
+  top: 60px;
+}
+.intro {
+  position: static;
+  width: 166px;
+  height: 24px;
+  left: 0px;
+  top: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 130px;
+}
+
+.mail {
+  position: static;
+  width: 32px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #727477;
+  box-sizing: border-box;
+  border-radius: 32px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 20px;
+}
