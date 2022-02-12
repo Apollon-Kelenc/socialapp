@@ -14,6 +14,9 @@
   height: 140px;
   border: 1px solid #000000;
   box-sizing: border-box;
+  margin-top: 100px;
+  margin-left: 24px;
+  margin-bottom: 15px;
 }
 
 .story-container {
