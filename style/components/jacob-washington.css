@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 24px;
+  width: 330px;
+  left: 0px;
+  top: 260px;
+  border-top: 2px solid #323436;
+  border-bottom: 2px solid #323436;
+}
+.minutes {
+  color: #727477;
+}
+p {
+  size: 16px;
+  margin: 0;
+  line-height: 24px;
+  margin-bottom: 16px;
+  color: var(--text-color);
+}
+article {
+  color: var(--text-color);
+}
+.iconss {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+  justify-content: space-between;
+}
+.text {
+  margin-top: 16px;
+}

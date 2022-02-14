@@ -1,0 +1,27 @@
+.post-big-pictures-container {
+  width: 375px;
+  height: 215px;
+  display: flex;
+}
+
+.post-big-picture {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 327px;
+  height: 180px;
+  left: 0px;
+  top: 50px;
+
+  flex: none;
+  order: 1;
+  margin: 16px 0px;
+}
+
+.big-picture {
+  width: 327px;
+  height: 100%;
+}
