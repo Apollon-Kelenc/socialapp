@@ -3,7 +3,7 @@ footer {
   width: 375px;
   height: 88px;
   bottom: 0;
-
+  background-color: black;
   mix-blend-mode: normal;
 }
 
