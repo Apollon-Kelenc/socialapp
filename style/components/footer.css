@@ -4,11 +4,12 @@ footer {
   height: 88px;
   left: 0px;
   top: 724px;
+  background-color: black;
 
   mix-blend-mode: normal;
 }
 
-footer frame4 {
+.frame4 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -20,9 +21,10 @@ footer frame4 {
   height: 40px;
   left: 24px;
   top: 16px;
+  background-color: #f72e8e;
 }
 
-footer frame4 Feed {
+footer .frame4 .feed {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -42,7 +44,21 @@ footer frame4 Feed {
   margin: 0px 32px;
 }
 
-footer frame4 Search {
+footer .frame4 .feed .icon-feed {
+  position: static;
+  width: 24px;
+  height: 24px;
+  left: 8px;
+  top: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+footer .frame4 .search {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -64,7 +80,15 @@ footer frame4 Search {
   margin: 0px 32px;
 }
 
-footer frame4 Create {
+/* footer .frame4 .search .icon-search {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+} */
+
+footer .frame4 .create {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -88,7 +112,18 @@ footer frame4 Create {
   margin: 0px 32px;
 }
 
-footer frame4 Alert {
+.frame4 .create .icon-create {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+
+  /* Primary / White */
+  border: 3px solid #ffffff;
+}
+
+footer .frame4 .alert {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -110,7 +145,18 @@ footer frame4 Alert {
   margin: 0px 32px;
 }
 
-footer frame4 Profile {
+/* footer.frame4 .alert .icon-alert {
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 12.5%;
+  bottom: 12.5%; */
+
+/* Primary / White */
+/* border: 2px solid #ffffff;
+} */
+
+footer .frame4 .profile {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -131,3 +177,14 @@ footer frame4 Profile {
   flex-grow: 0;
   margin: 0px 32px;
 }
+
+/* footer .frame4 .profile .icon-profile {
+  position: absolute;
+  left: 16.67%;
+  right: 15.45%;
+  top: 20.83%;
+  bottom: 20.83%; */
+
+/* Primary / White */
+/* border: 2px solid #ffffff;
+} */
